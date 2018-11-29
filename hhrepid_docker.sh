@@ -1,6 +1,22 @@
 #!/usr/bin/env bash
 # Wrapper for hhrepid docker container
-# Takes all input and output files, binds them to the container, and modifies paths to point to the container locations
+# Takes all input and output files, binds them to the container, and modifies
+# paths to point to the container locations
+#
+# Created by Spencer Bliven, 2018
+# This script is released into the public domain.
+# http://creativecommons.org/publicdomain/zero/1.0/
+#
+# HHrepID is Copyright Andreas Biegert (2007).
+# The HHrepID software package is distributed under the terms of the
+# Attribution-NonCommercial-2.0 license from Creative Commons
+# (http://creativecommons.org/licenses/by-nc/2.0/).
+#
+# Please cite:
+#
+# Biegert A, Soding J. De novo identification of highly diverged protein
+# repeats by probabilistic consistency. Bioinformatics. 2008 Mar 15;24(6):807-14
+
 
 
 # Remap files

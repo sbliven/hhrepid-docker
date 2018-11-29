@@ -3,8 +3,8 @@ HHrepID Docker
 This creates a docker container for HHrepID. This allows HHrepID to be run on
 Mac or Windows.
 
-HHrepID is licensed under the Attribution-NonCommercial-2.0 license from
-Creative Commons (http://creativecommons.org/licenses/by-nc/2.0/)
+HHrepID is licensed under the [Attribution-NonCommercial-2.0 license](http://creativecommons.org/licenses/by-nc/2.0/)
+from Creative Commons.
 
 Building
 --------
@@ -42,8 +42,7 @@ http://creativecommons.org/publicdomain/zero/1.0/
 
 HHrepID is Copyright Andreas Biegert (2007).
 The HHrepID software package is distributed under the terms of the
-[Attribution-NonCommercial-2.0 license from Creative Commons]
-(http://creativecommons.org/licenses/by-nc/2.0/).
+[Attribution-NonCommercial-2.0 license from Creative Commons](http://creativecommons.org/licenses/by-nc/2.0/).
 See [full license terms](ftp://ftp.tuebingen.mpg.de/pub/protevo/HHrepID/LICENSE)
 
 Please cite:

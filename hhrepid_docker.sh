@@ -48,7 +48,7 @@ remap () {
 while [[ $# -gt 0 ]]; do
     #if containsElement "$1" "${FILE_PARAMS[@]}"; then
     case "$1" in
-    -i | -d 
+    -i | -d | -tp | -fp )
         # appends to MNT_DST
         remap "$1" "$2"
         ARGS+=("$1")
@@ -87,6 +87,6 @@ echo "   "    "${ARGS[@]}"
 docker run --rm \
     --name hhrepidrun \
     "${MNT[@]}" \
-    hhrepid \
+    blivens/hhrepid \
     "${ARGS[@]}"
 
